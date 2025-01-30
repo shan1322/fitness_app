@@ -1,7 +1,7 @@
 import numpy as np
 import joblib
 import json
-from keras.models import load_model  # For loading Keras models
+from tensorflow.keras.models import load_model  # For loading Keras models
 
 import joblib
 def load_model_and_preprocessors(path,model_name):
